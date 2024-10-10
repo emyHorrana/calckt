@@ -47,7 +47,7 @@ class MainActivity : AppCompatActivity() {
         fun deletar(int: Int) {
             if (conta.length > 0) {
                 conta = conta.substring(0, conta.length - int) // O método substring irá retornar o valor da "conta" a partir do indice 0
-                editTextConta.setText(conta)                    // até o ultimo valor menos 1, ou seja, ela faz o papel de apagar a ultimo caracter.
+                editTextConta.setText(conta)                    // até o ultimo valor menos INT, ou seja, ela faz o papel de apagar a ultimo caracter.
             }
         }
 
